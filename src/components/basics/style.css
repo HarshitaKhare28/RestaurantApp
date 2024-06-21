@@ -1,0 +1,106 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fedecd;
+  }
+  
+  .navbar {
+    margin-top: 1.89%;
+    margin-bottom: 1.5%;
+    border-radius: 3%;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    background-color: #fd7c65;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  .navbar .btn {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 35px;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .btn{
+    background-color: #fd7c65;
+  }
+  
+  .navbar .btn:hover {
+    background-color: #fb7341;
+    color: #ffffff;
+    border-radius: 4px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+  }
+  
+  .card h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .card p {
+    margin: 0;
+    color: #555;
+    padding: 1%;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .images{
+    text-align: center;
+  }
+  .images img{
+    padding: 3%;
+    display: inline-block;
+    /* width:300px; */
+    height: 300px;
+  }
+
+button {
+  background-color: transparent; 
+  color: #ff6347;
+  padding: 10px 20px;
+  border: 1px solid #ff6347;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 20px auto 0 auto; 
+}
+
+button:hover {
+  background-color: #ff4500; 
+  color: #fff;
+}
+  
+  
